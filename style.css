@@ -3,9 +3,13 @@ body {
 
 }
 
+main {
+    padding-left: 15px;
+}
+
 .navbar ul {
     list-style-type: none;
-    background-color: rgb(59, 45, 45);
+    background-color: rgb(12, 71, 122);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -15,15 +19,18 @@ body {
     text-decoration: none;
     color: white;
     padding: 15px;
-    display: block;
+    display: flex;
     text-align: center;
 
 }
 
 .navbar a:hover {
-    background-color: rgb(131, 92, 92);
+    background-color: rgb(107, 169, 210);
+    border-radius: 15px;
+    color: black;
 }
 
 .navbar li {
     float: left;
+    margin-left: 20px;
 }
